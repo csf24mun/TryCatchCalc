@@ -4,10 +4,11 @@ void CalculatorApp()
 {
     try
     {
+        //test 
         // Prompt the user to enter the first number
         Console.Write("Enter the first number: ");
         int firstNumber = Convert.ToInt32(Console.ReadLine());
-
+        
         // Prompt the user to enter the second number
         Console.Write("Enter the second number: ");
         int secondNumber = Convert.ToInt32(Console.ReadLine());
@@ -59,3 +60,4 @@ void CalculatorApp()
         Console.WriteLine("Operation completed.");
     }
 }
+
